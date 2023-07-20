@@ -1,0 +1,343 @@
+{
+  "entity": {
+    "wml_model": {
+      "hybrid_pipeline_software_specs": [],
+      "software_spec": {
+        "base_id": "687eddc9-028a-4117-b9dd-e57b36f1efa5",
+        "name": "spss-modeler_18.2"
+      },
+      "ml_version": "4.0.18",
+      "type": "spss-modeler_18.2",
+      "schemas": {
+        "input": [
+          {
+            "fields": [
+              {
+                "metadata": {},
+                "name": "Turbine_ID",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Inspection_in_last_6 Months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Minor_Component_Failure_Last_6_months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Major_Component _Failure_Last_6_months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Proactive_Part_Replacement_Last_6_months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Inspection_Last_3_months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Proactive_Asset_Replacement_Last_3 months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Month_recorded",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Section",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Zone",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Previous_Over_current_Trips",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Lubrication_Type",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "New_Seal",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Planned_shutdowns",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Average_RPM",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Asset_Age_Score",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Average_Vibration_Score",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Torque_rating",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Bearing_Weight_Score",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Insulation_Rating",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Fatigue_Score",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "metadata": {},
+                "name": "Temperature_Class_One_Week_Before",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Average_Pressure_Score",
+                "nullable": true,
+                "type": "double"
+              }
+            ],
+            "id": "scoring_asset.csv",
+            "name": "scoring_asset.csv",
+            "type": "struct"
+          }
+        ],
+        "output": [
+          {
+            "fields": [
+              {
+                "metadata": {},
+                "name": "Turbine_ID",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Inspection_in_last_6 Months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Minor_Component_Failure_Last_6_months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Major_Component _Failure_Last_6_months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Proactive_Part_Replacement_Last_6_months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Inspection_Last_3_months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Proactive_Asset_Replacement_Last_3 months",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Month_recorded",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Section",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Zone",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Previous_Over_current_Trips",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Lubrication_Type",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "New_Seal",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Planned_shutdowns",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Average_RPM",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Asset_Age_Score",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Average_Vibration_Score",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Torque_rating",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Bearing_Weight_Score",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Insulation_Rating",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Fatigue_Score",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "metadata": {},
+                "name": "Temperature_Class_One_Week_Before",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Average_Pressure_Score",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "metadata": {},
+                "name": "Failure_score",
+                "nullable": true,
+                "type": "double"
+              }
+            ],
+            "id": "id76ATGF1SYKS",
+            "name": "scoring_results",
+            "type": "struct"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "name": "Asset_Failure",
+    "description": "predict asset failure",
+    "asset_type": "wml_model",
+    "asset_category": "USER",
+    "resource_key": "2d30db3b-df28-425c-8546-1c5f55ff73d1",
+    "origin_country": "US",
+    "created_at": "2023-07-20T20:26:00Z",
+    "created": 1689884760713,
+    "asset_id": "wml_model.AssetFailure",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "attachments": [
+    {
+      "asset_type": "wml_model",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2023-07-20T20:26:01Z",
+      "id": "37d73010-470e-4f83-b6a0-60559379651d",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}

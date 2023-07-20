@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "name": "asset_failure_prediction_run",
+    "description": "",
+    "asset_type": "job",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2023-07-20T20:27:51Z",
+    "created": 1689884871648,
+    "asset_id": "job.assetfailurepredictionrun",
+    "asset_attributes": [
+      "job"
+    ]
+  },
+  "entity": {
+    "job": {
+      "asset_ref_type": "machine-learning-stream",
+      "configuration": {
+        "env_id": "modcpd1",
+        "update_action": "none",
+        "branches": [
+          "id76ATGF1SYKS"
+        ],
+        "env_type": "modeler",
+        "env_variables": []
+      },
+      "last_run_initiator": "deprecated field",
+      "last_run_time": "deprecated field",
+      "last_run_status": "deprecated field",
+      "last_run_status_timestamp": 0,
+      "future_scheduled_runs": [],
+      "enable_notifications": true,
+      "project_name": "git_spss_demo",
+      "asset_ref": "machine-learning-stream.TurbineFailure",
+      "schedule_id": "",
+      "schedule_creator_id": ""
+    }
+  },
+  "attachments": []
+}
