@@ -304,8 +304,8 @@
                 "type": "double"
               }
             ],
-            "id": "id76ATGF1SYKS",
-            "name": "scoring_results",
+            "id": "scoring_results.csv",
+            "name": "scoring_results.csv",
             "type": "struct"
           }
         ]
@@ -313,15 +313,15 @@
     }
   },
   "metadata": {
-    "name": "Asset_Failure",
-    "description": "predict asset failure",
+    "name": "Asset_Failure_Prediction",
+    "description": "predict asset failure based on asset properties, maintenance history and environmental condition of where the asset is operated under.",
     "asset_type": "wml_model",
     "asset_category": "USER",
-    "resource_key": "2d30db3b-df28-425c-8546-1c5f55ff73d1",
+    "resource_key": "30296618-4bc6-4712-9feb-8557248e4a29",
     "origin_country": "US",
-    "created_at": "2023-07-20T20:26:00Z",
-    "created": 1689884760713,
-    "asset_id": "wml_model.AssetFailure",
+    "created_at": "2023-07-20T20:34:41Z",
+    "created": 1689885281400,
+    "asset_id": "wml_model.AssetFailurePrediction",
     "asset_attributes": [
       "wml_model"
     ]
@@ -332,8 +332,8 @@
       "user_data": {
         "content_format": "native"
       },
-      "created_at": "2023-07-20T20:26:01Z",
-      "id": "37d73010-470e-4f83-b6a0-60559379651d",
+      "created_at": "2023-07-20T20:34:41Z",
+      "id": "0baf63c8-a577-4ef5-b07f-731443611547",
       "is_managed": true,
       "is_referenced": false,
       "is_remote": false,
